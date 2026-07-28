@@ -1,4 +1,4 @@
-/* Google Font */
+t/* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
 
 *{
@@ -234,5 +234,9 @@ footer{
 .section{
     padding:100px 8%;
 }
-
+.nav-links a.active{
+    color:#bfbfbf;
+    border-bottom:2px solid #fff;
+    padding-bottom:5px;
+}
 }
